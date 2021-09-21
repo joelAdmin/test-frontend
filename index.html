@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div class="menuLeft">
+        <div class="menu1">
+            <div>load ...</div>
+            <b> ...</b>
+        </div>
+        <div class="menu2">
+            <b>load ...</b>
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="banner">
+            <p class="bannerTitle" id="bannerTitle">load ...</p>
+
+            <div class="divBanner">
+                <div class="item-1">
+                    <div class="item-1-1">
+                        <div class="item-1-1-1"></div>
+                        <div class="item-1-1-2"></div>
+                        <div class="item-1-1-3">
+                            <b class="texto-title"></b>
+                            <small class="texto-info"></small>
+                        </div>
+                    </div>
+                    <div class="item-1-2">
+                        <div class="item-1-2-1"></div>
+                        <div class="item-1-2-2"></div>
+                        <div class="item-1-2-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel-container-body">
+            <div class="panel-container">
+                <div class="col-1">
+                    <div class="title">
+                        <p><b>3 Days</b> Forecast</p>
+                    </div>
+
+                    <div class="item">
+                        <div class="img"></div>
+                        <div class="texto">
+                            <b class="texto-title">Friday</b>
+                            <p class="texto-info">bay</p>
+                        </div>
+                        <div class="grados">
+                            <p class="texto">32º/23º</p>
+                        </div>
+                    </div>
+
+                    <div class="item2">
+                        <div class="img"><img src="img/lluvia.png" width="80px" alt=""></div>
+                        <div class="texto">
+                            <b class="texto-title">Friday</b>
+                            <p class="texto-info">bay</p>
+                        </div>
+                        <div class="grados">
+                            <p class="texto">32º/23º</p>
+                        </div>
+                    </div>
+
+                    <div class="item3">
+                        <div class="img"><img src="img/sol.png" width="80px" alt=""></div>
+                        <div class="texto">
+                            <b class="texto-title">Friday</b>
+                            <p class="texto-info">bay</p>
+                        </div>
+                        <div class="grados">
+                            <p class="texto">32º/23º</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-2">
+                    <div class="title">
+                        <p><b>Place to</b> visit</p>
+                    </div>
+
+                    <div class="item-1">
+                        <p>
+                            <small class="saltopagina">Areab Street</small>
+                            <small>Singappare</small>
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-3">
+                    <div class="item-1">
+                        <div class="title">
+                            <p><small>+</small> Top Raviews</p>
+                        </div>
+
+                        <div class="iconos">
+                            <div class="item item-1">1</div>
+                            <div class="item item-2">2</div>
+                            <div class="item item-3">3</div>
+                            <div class="item item-4">g+</div>
+                        </div>
+                    </div>
+
+                    <div class="item-2">
+                        <b>
+                            <small class="saltopagina">Areab Street</small>
+                            <small>Singappare</small>
+                        </b>
+                    </div>
+
+                    <div class="item-3">
+                        <b>
+                            <small class="saltopagina">Areab Street</small>
+                            <small>Singappare</small>
+                        </b>
+                        <div class="item-3-1">
+                            <p>+</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="panel-container2">
+                <div class="item-1">
+                    <div class="item-1-1">
+                        <div class="item-1-1-1"></div>
+                        <div class="item-1-1-2"></div>
+                        <div class="item-1-1-3">
+                            <b class="texto-title"></b>
+                            <small class="texto-info"></small>
+                        </div>
+                    </div>
+                    <div class="item-1-2">
+                        <div class="item-1-2-1"></div>
+                        <div class="item-1-2-2"></div>
+                        <div class="item-1-2-3"></div>
+                    </div>
+                </div>
+                <div class="separador"></div><br/>
+                <div class="item-2">
+                    <div class="title">Add Location</div>
+                    <div class="imagen">
+                        <img src="img/fondo.jpg" width="170px" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.load = getInfoCityForecast('3688685', 'forecast', 'es', 3);
+        window.load = getInfoCityBanner('3688685', 'weather', 'es');
+        window.load = getInfoItem1('2968815', 'weather', 'es', 'panel-container2', 'FR');
+        window.load = getInfoItem1('2996944', 'weather', 'es', 'divBanner', 'FR');
+    </script>
+
+</body>
+
+</html>
